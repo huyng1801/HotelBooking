@@ -1,0 +1,49 @@
+/* HotelDetails.css */
+
+.room-card {
+    display: flex;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.room-card img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.room-card .card-body {
+    padding: 15px;
+}
+
+.room-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.room-card .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.room-card .amenities span {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.card-custom {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card-custom:hover {
+    transform: scale(1.05);
+}
+
+.carousel img {
+    height: 300px;
+    object-fit: cover;
+}
